@@ -1,0 +1,167 @@
+@import url(styles.css);
+
+#portada {
+    background-color: var(--colorazul);
+}
+
+.portada {
+    background-image: url("../image/portada.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+}
+
+.foto_portada {
+    display: flex;
+    justify-content: center;
+
+    & img {
+        width: 60%;
+        height: auto;
+    }
+}
+
+.textos_portada {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: center;
+
+    &h1 {
+        color: var(--colorazul)
+    }
+}
+
+#portada2 {
+    background-image: url("../image/portada.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.portada2 {
+    height: 600px;
+}
+
+.boton_portada2 {
+    height: 100%;
+    margin-top: 250px;
+    margin-left: 350px;
+}
+
+.ofertas_titulo h3 {
+    text-align: center;
+    color: var(--colorrojo);
+    padding-bottom: 80px;
+}
+
+.oferta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+
+    & p {
+        text-align: center;
+    }
+}
+
+.oferta_foto img {
+    width: 100%;
+    height: auto;
+    border-radius: 25px;
+}
+
+.oferta_boton button {
+    font-family: var(--fontknewave);
+}
+
+.areas_titulo h1 {
+    text-align: center;
+    color: var(--colornegro);
+    padding-bottom: 40px;
+    font-family: var(--fontlalezar);
+}
+
+.areas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 60px;
+
+    & p {
+        text-align: center;
+    }
+}
+
+.areas_foto img {
+    width: 100%;
+    height: auto;
+    border-radius: 25px;
+}
+
+.areas_boton button {
+    font-family: var(--fontlemon);
+}
+
+.especialidades_todo {
+    align-items: center;
+}
+
+.especialidades_titulo h1 {
+    text-align: center;
+    color: var(--colornegro);
+    padding-bottom: 40px;
+}
+
+.especialidades {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+
+    & p {
+        text-align: center;
+    }
+}
+
+.especialidades_foto img {
+    width: 100%;
+    height: auto;
+    border-radius: 25px;
+}
+
+.especialidades_boton button {
+    font-family: var(--fontlemon);
+}
+
+.especialidades h5 {
+    font-family: var(--fontleague);
+}
+
+#mision_todo {
+    background-image: url("../image/cruces.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+}
+
+.imagenfinal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+
+    & p {
+        text-align: center;
+    }
+}
+
+.imagenfinal_foto img {
+    width: 100%;
+    height: auto;
+    border-radius: 25px;
+}
