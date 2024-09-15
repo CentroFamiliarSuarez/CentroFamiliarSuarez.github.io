@@ -41,7 +41,6 @@ h4,
 h5,
 h6 {
     font-weight: 900;
-    text-decoration: underline;
     text-transform: uppercase;
 }
 
@@ -139,9 +138,42 @@ button {
     margin: 0px;
 }
 
-.container {
+.btn6 {
+    background-color: var(--colorblanco);
+    color: var(--colornegro);
+    font-size: 2.5rem;
+}
 
-    padding: 80px 25px;
+.btn6:hover {
+    background-color: var(--colorturquesa);
+    color: var(--colorazul);
+}
+
+.btn7 {
+    background-color: transparent;
+    color: var(--colornegro);
+    font-size: 2.5rem;
+}
+
+.btn7:hover {
+    color: var(--colorturquesa);
+}
+
+.btn8 {
+    background-color: var(--colorturquesa);
+    color: var(--colornegro);
+    border: 2px solid var(--colorceleste);
+    font-size: 2rem;
+}
+
+.btn8:hover {
+    background-color: var(--colorturquesa);
+    color: var(--colorazul);
+    border: 2px solid var(--colorblanco)
+}
+
+.container {
+    padding: 20px 25px;
 }
 
 .grid_2 {
@@ -256,10 +288,10 @@ button {
     }
 
     .btn2 {
-    background-color: var(--colorblanco);
-    color: var(--colornegro);
-    font-size: 1.5rem;
-}
+        background-color: var(--colorblanco);
+        color: var(--colornegro);
+        font-size: 1.5rem;
+    }
 
     /* Modificar 2 columnas a 1 columna */
 
@@ -278,6 +310,6 @@ button {
 
     .grid_3 {
         grid-template-columns: 1fr;
-        justify-content: center;        
+        justify-content: center;
     }
 }

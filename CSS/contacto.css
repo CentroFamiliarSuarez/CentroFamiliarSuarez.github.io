@@ -1,1 +1,56 @@
 @import url(styles.css);
+
+.datos p {
+    margin-top: 25px;
+}
+
+.listas_datos {
+    display: flex;
+    gap: 105px;
+    margin-top: 50px;
+}
+
+.listas_datos_imagen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 205px;
+    height: 205px;
+}
+
+.listas_datos_texto {
+    display: flex;
+    text-align: center;
+    width: 600px;
+}
+
+.formulario_input {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 15px;
+}
+
+.formulario_items {
+    background: linear-gradient(#00C8FF, #006480);
+    border-radius: 85px;
+    padding: 10px;
+    margin-left: 150px;
+    margin-right: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.grupos_input input,
+textarea {
+    width: 98%;
+    padding: 5px 5px;
+    border-radius: 25px;
+}
+
+.datos {
+    background-image: url("../image/cruces.png");
+    background-position: bottom;
+    background-size: cover;
+}
